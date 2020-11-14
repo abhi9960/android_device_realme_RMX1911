@@ -5,7 +5,7 @@
 #
 
 BOARD_VENDOR := realme
-DEVICE_PATH := device/realme/RMX1911
+DEVICE_PATH := device/realme/RMX1925
 
 # Architecture
 TARGET_ARCH := arm64
@@ -30,7 +30,7 @@ BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
 BUILD_BROKEN_PREBUILT_ELF_FILES := true
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := RMX1911
+TARGET_OTA_ASSERT_DEVICE := RMX1925,RMX1911
 
 # Display density
 TARGET_SCREEN_DENSITY := 480
@@ -174,4 +174,4 @@ BOARD_AVB_RECOVERY_ROLLBACK_INDEX := 1
 BOARD_AVB_RECOVERY_ROLLBACK_INDEX_LOCATION := 1
 
 # Inherit from the proprietary version
--include vendor/realme/RMX1911/BoardConfigVendor.mk
+-include vendor/realme/RMX1925/BoardConfigVendor.mk
