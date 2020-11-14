@@ -174,4 +174,4 @@ BOARD_AVB_RECOVERY_ROLLBACK_INDEX := 1
 BOARD_AVB_RECOVERY_ROLLBACK_INDEX_LOCATION := 1
 
 # Inherit from the proprietary version
--include vendor/realme/RMX1925/BoardConfigVendor.mk
+-include vendor/realme/RMX1911/BoardConfigVendor.mk
