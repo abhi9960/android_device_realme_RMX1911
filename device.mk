@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product, vendor/realme/RMX1911/RMX1911-vendor.mk)
+$(call inherit-product, vendor/realme/RMX1925/RMX1925-vendor.mk)
 
 PRODUCT_SHIPPING_API_LEVEL := 29
 PRODUCT_TARGET_VNDK_VERSION := 29
@@ -74,7 +74,7 @@ PRODUCT_PACKAGES += \
 
 #  Lights
 PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-service.RMX1911
+    android.hardware.light@2.0-service.RMX1925
 
 # fstab
 PRODUCT_COPY_FILES += \
@@ -83,7 +83,7 @@ PRODUCT_COPY_FILES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service.RMX1911 \
+    android.hardware.biometrics.fingerprint@2.1-service.RMX1925 \
     vendor.oppo.hardware.biometrics.fingerprint@2.1
 
 # Fingerprint
